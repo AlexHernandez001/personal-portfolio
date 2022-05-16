@@ -1,117 +1,101 @@
 <!DOCTYPE html>
 <html lang="en" class="sr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <title>Alex Hernandez | Developer</title>
-    <meta name="keywords" content="[username], [name], skill" />
-    <meta name="description" content="Alex Hernandez | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+  <title>Alex Hernandez | Developer</title>
+  <meta name="keywords" content="[username], [name], skill" />
+  <meta name="description" content="Alex Hernandez | Developer" />
 
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.scss" />
+  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-  <body>
-    <ul>
-      <li><a href="home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <div id="top"></div>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <section id="about">
-        <div class="container">
-          <h2 class="section-title load-hidden">About me</h2>
-          <div class="row about-wrapper">
-            <div class="col-md-6 col-sm-12">
-              <div class="about-wrapper__image load-hidden">
-                <img
-                  class="img-fluid rounded shadow-lg"
-                  height="auto"
-                  width="300px"
-                  src="assets/profile.jpg"
-                  alt="Profile Image"
-                />
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="about-wrapper__info load-hidden">
-                <p class="about-wrapper__info-text">
-                  My name is Alex Hernandez and I am 16 years old. I am currently a student at Clovis High School and the Center for Advanced Research and Technology (CART). The classes I take are Physics, U.S. history, Advanced Math, and Web Design. I have made multiple websites over the course of the year utilizing the coding languages HTML5, CSS3, and JavaScript. Next year I will be taking Interactive Game Design.
-                </p>
-                <p class="about-wrapper__info-text">
-                  My favorite pastimes are playing video games and watching anime. I currently have 6 cats that I love dearly. 
-                </p>
-                <span class="d-flex mt-3">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    class="cta-btn cta-btn--resume"
-                    href="resume.html"
-                  >
-                    View Resume
-                  </a>
-                </span>
-              </div>
-            </div>
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="portfolio.html">Portfolio</a>
+      <div class="dropdown">
+        <button class="dropbtn">Portfolio Options</button>
+        <div class="dropdown-content">
+          <a href="#WebProgramming.html">Web/Programming</a>
+          <a href="#writing.html">Writing</a>
+          <a href="#other">Other</a>
+        </div>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div id="top"></div>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title load-hidden">About me</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="assets/profile.jpg"
+              alt="Profile Image" />
           </div>
         </div>
-      </section>
-      <footer class="footer navbar-static-bottom">
-        <div class="container">
-          <a rel="noreferrer" href="#top" class="back-to-top">
-            <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-          </a>
-          <div class="social-links">
-            <a rel="noreferrer" href="#!" target="_blank">
-              <i class="fa fa-twitter fa-inverse"></i>
-            </a>
-            <a rel="noreferrer" href="#!" target="_blank">
-              <i class="fa fa-linkedin fa-inverse"></i>
-            </a>
-            <a rel="noreferrer" href="#!" target="_blank">
-              <i class="fa fa-github fa-inverse"></i>
-            </a>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              My name is Alex Hernandez and I am 16 years old. I am currently a student at Clovis High School and the
+              Center for Advanced Research and Technology (CART). The classes I take are Physics, U.S. history, Advanced
+              Math, and Web Design. I have made multiple websites over the course of the year utilizing the coding
+              languages HTML5, CSS3, and JavaScript. Next year I will be taking Interactive Game Design.
+            </p>
+            <p class="about-wrapper__info-text">
+              My favorite pastimes are playing video games and watching anime. I currently have 6 cats that I love
+              dearly.
+            </p>
+            <span class="d-flex mt-3">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="resume.html">
+                View Resume
+              </a>
+            </span>
           </div>
-  
-          <hr />
-          <p class="mt-3 pt-3">
-            <a
-              rel="noreferrer"
-              class="github-button"
-              href="https://github.com/AlexHernandez001/personal-portfolio"
-              data-icon="octicon-repo-forked"
-              data-size="large"
-              data-show-count="true"
-              aria-label="repository"
-              >repository</a
-            >
-            <a
-              rel="noreferrer"
-              class="github-button"
-              href="https://github.com/AlexHernandez001o"
-              data-icon="octicon-star"
-              data-size="large"
-              data-show-count="true"
-              aria-label="Profile on Github"
-              >Github Profile</a
-            >
-          </p>
         </div>
-      </footer>
-  </body>
+      </div>
+    </div>
+  </section>
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a rel="noreferrer" href="#!" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="#!" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="#!" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+      <p class="mt-3 pt-3">
+        <a rel="noreferrer" class="github-button" href="https://github.com/AlexHernandez001/personal-portfolio"
+          data-icon="octicon-repo-forked" data-size="large" data-show-count="true"
+          aria-label="repository">repository</a>
+        <a rel="noreferrer" class="github-button" href="https://github.com/AlexHernandez001o" data-icon="octicon-star"
+          data-size="large" data-show-count="true" aria-label="Profile on Github">Github Profile</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
