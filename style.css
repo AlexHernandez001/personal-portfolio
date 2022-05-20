@@ -1,5 +1,32 @@
+@import "./sass/vendors/bootstrap.scss";
+
+@import "./sass/abstracts/mixins";
+@import "./sass/abstracts/variables";
+@import "./sass/abstracts/helpers";
+
+@import "./sass/base/base";
+@import "./sass/base/typography";
+
+@import "./sass/components/buttons";
+
+@import "./sass/layout/footer";
+@import "./sass/layout/sections";
+
+@import "./sass/sections/about";
+@import "./sass/sections/contact";
+@import "./sass/sections/hero";
+@import "./sass/sections/projects";
+
+
+body {
+    margin: 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 .dropbtn {
-    background-color: #04AA6D;
+    background-color: #8600FF;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -36,28 +63,41 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #8600FF;
 }
 
-@import "./sass/vendors/bootstrap.scss";
-
-@import "./sass/abstracts/mixins";
-@import "./sass/abstracts/variables";
-@import "./sass/abstracts/helpers";
-
-@import "./sass/base/base";
-@import "./sass/base/typography";
-
-@import "./sass/components/buttons";
-
-@import "./sass/layout/footer";
-@import "./sass/layout/sections";
-
-@import "./sass/sections/about";
-@import "./sass/sections/contact";
-@import "./sass/sections/hero";
-@import "./sass/sections/projects";
-
-li {
+.nav {
+    display: flex;
     flex-direction: row;
+    place-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav li{
+    padding: 0px 20px 0px 20px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactform {
+    width: auto;
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    text-align: center;
 }
