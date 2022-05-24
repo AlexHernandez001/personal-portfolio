@@ -101,3 +101,11 @@ body {
 .section-title {
     text-align: center;
 }
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    align-items: center;
+    list-style: none;
+}
